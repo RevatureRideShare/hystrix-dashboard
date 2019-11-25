@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: hystrix-dashboard-service
+
 server:
   port: 8081
 
@@ -15,3 +19,8 @@ hystrix:
           thread:
             timeoutInMilliseconds: 5000
 
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: http://localhost:8761/eureka  
