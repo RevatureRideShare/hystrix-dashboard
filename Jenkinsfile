@@ -18,7 +18,7 @@ pipeline {
         SONAR_SCANNER_OPTS="-server" 
         ORG="RevatureRideShare"
         REPO="hystrix-dashboard"
-        BRANCH="feature/2-jenkinsfile"
+        BRANCH="master"
     }
 
     stages {
